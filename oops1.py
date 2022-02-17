@@ -371,3 +371,16 @@ print(hindustani_supporter.email)
 hindustani_supporter.email = "Harry.Perry@codewithharry.com"
 print(hindustani_supporter.email)
 
+"""object introspection"""
+
+skillf = Employee("Skill", "F")
+# print(skillf.email)
+o = "this is a string"
+# print(type(o))
+# print(dir(skillf))
+# print(id("that that"))
+
+import inspect
+print(inspect.getmembers(skillf))
+
+
